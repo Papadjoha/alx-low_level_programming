@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * swap_int - swap integers
@@ -11,9 +11,8 @@
 
 void swap_int(int *a, int *b)
 {
-	int tmp;
-
-	tmp = *a;
-	*a = *b;
-	*b = tmp;
+int tmp;
+tmp = *a;
+*a = *b;
+*b = tmp;
 }
